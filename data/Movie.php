@@ -21,6 +21,18 @@ class Movie{
     public function getTitle(){
         return $this->title;
     }
+    public function getDirector(){
+        return $this->director;
+    }
+    public function getGenre(){
+        return $this->genre;
+    }
+    public function getYear(){
+        return $this->year;
+    }
+    public function getmainActor(){
+        return $this->mainActor;
+    }
 
 
 }
